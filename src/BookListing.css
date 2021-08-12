@@ -1,0 +1,23 @@
+.BookListing {
+  box-shadow: 0 1px 2px hsl(240, 30%, 30%);
+  padding: 36px;
+  max-width: 400px;
+  position: relative;
+  margin-bottom: 36px;
+  border-radius: 4px;
+}
+
+.BookListing .badge {
+  background-color: hsl(240, 30%, 90%);
+  color: hsl(240, 30%, 40%);
+  padding: 8px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 12px;
+}
+
+.BookListing .alert {
+  background-color: hsl(0, 30%, 90%);
+  color: hsl(0, 30%, 40%);
+}
